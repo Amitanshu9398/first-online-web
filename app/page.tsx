@@ -9,7 +9,7 @@ export default function Home() {
   ];
   return (
     <main className="relative h-screen w-full">
-      <nav style={{position: "relative" }}>
+      <nav style={{ position: "relative" }}>
         <GooeyNav
           items={items}
           animationTime={600}
@@ -34,6 +34,8 @@ export default function Home() {
       <div className="relative flex items-center justify-center h-full">
         <h1 className="text-white text-4xl">Hello World</h1>
       </div>
+
+      <div className="h-screen w-full bg-zinc-950"></div>
     </main>
   );
 }

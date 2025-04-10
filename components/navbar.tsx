@@ -10,6 +10,10 @@ interface GooeyNavItem {
 export interface GooeyNavProps {
   items: GooeyNavItem[];
   animationTime?: number;
+  pCount: number;
+  minDistance: number;
+  maxDistance: number;
+  maxRotate: number;
   particleCount?: number;
   particleDistances?: [number, number];
   particleR?: number;
